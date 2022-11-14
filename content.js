@@ -1,7 +1,7 @@
 
 
-const headings = document.getElementsByTagName("label");
+const labels = document.getElementsByTagName("label");
 
-for(heading of headings) {
-    heading.style.border = "4px solid red";
+for(label of labels) {
+    label.style.border = "4px solid red";
  }
