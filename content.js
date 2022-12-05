@@ -1,9 +1,7 @@
 
 const labels = document.getElementsByTagName("label");
 
-for(label of labels) {
-    label.style.border = "4px solid red";
- }
+
 function high(){
     labels = document.getElementsByTagName('label');
     for( var i = 0; i < labels.length; i++ ) {
